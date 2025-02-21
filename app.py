@@ -70,7 +70,7 @@ def main():
                 response = chatbot_pipeline.invoke({'question': query_input})
                 
                 # Format the output and display it in a more attractive way
-                #formatted_output = format_output(response)
+                #formatsted_output = format_output(response)
                 #st.markdown(f"<div style='padding: 10px; background-color: #f1f1f1; border-radius: 5px;'>{formatted_output}</div>", unsafe_allow_html=True)
 
                 # Display the conversation
